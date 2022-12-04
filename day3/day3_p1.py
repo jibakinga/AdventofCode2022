@@ -1,4 +1,4 @@
-f = open(r"C:\Users\Minahil\Desktop\adv\day3\day3.txt", "r")
+f = open("day3.txt", "r")
 
 priorities={};
 
@@ -24,5 +24,7 @@ for line in f:
         if element in set(list2):
             sum_priorities+=priorities[element]
             
-print(sum_priorities)       
+print(sum_priorities) 
+
+f.close()
     
