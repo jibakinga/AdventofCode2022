@@ -1,4 +1,4 @@
-f = open(r"C:\Users\Minahil\Desktop\adv\day3\day3.txt", "r")
+f = open("day3.txt", "r")
 
 priorities={};
 
@@ -32,4 +32,5 @@ for line in f:
         l_arr=[]
         
 print(sum_priorities)       
+f.close()
     
